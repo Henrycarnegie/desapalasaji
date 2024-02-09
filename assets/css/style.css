@@ -1,0 +1,201 @@
+/*
+    Style for Kapita Selekta Informatika Website
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+div pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+figure,
+header,
+nav,
+section,
+article,
+aside,
+footer,
+figcaption {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+html,
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background: rgb(242, 248, 255);
+    background: linear-gradient(135deg, rgba(242, 248, 255, 1) 0%, rgba(234, 241, 255, 1) 100%); */
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+section {
+    margin-top: 120px;
+}
+
+
+/*
+===================
+    Header 
+===================
+*/
+
+header {
+    /* background-color: #4999FF; */
+    background-color: #388FFF;
+}
+
+header .main-header .logo,
+header .main-header .nav {
+    color: #f0f0f0;
+}
+
+header .main-header .logo img {
+    width: auto;
+    max-height: 55px;
+}
+
+header .main-header ul li a {
+    color: #fff;
+    transition: all .5s;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header .main-header ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1.5px;
+    background: #fff;
+    transition: width .3s;
+}
+
+header .main-header ul li a:hover::after {
+    width: 100%;
+    transform: scale(1.1);
+}
+
+
+/*
+===================
+    Main Title 
+===================
+*/
+
+section.main-banner .main-title h3 {
+    font-size: 42px;
+}
+
+section.main-banner .main-title h5 em {
+    font-size: 28px;
+}
+
+section.main-banner .sec-title {
+    border-top: 1px solid #a7a7a7;
+}
+
+
+/*
+===================
+    Main Content 
+===================
+*/
+
+.main-content .content {
+    padding: 0 !important;
+    color: #0f0f0f;
+}
+
+.main-content .content .content-title {
+    background-color: #FFD600;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-content .content .content-text {
+    background-color: #fff;
+    border: 1px solid #a7a7a7;
+    border-top: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/*
+===================
+    Main Picture 
+===================
+*/
+
+/* .main-pict .owl-carousel {
+    position: relative;
+}
+
+.main-pict .item {
+    position: relative;
+}
+
+.main-pict .item img {
+    border-radius: 15px;
+    max-width: 500px;
+    height: 250px;
+} */
